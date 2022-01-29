@@ -1,0 +1,4 @@
+kubectl apply -f https://k8s.io/examples/application/mysql/mysql-configmap.yaml --namespace=mysql
+
+kubectl apply -f https://k8s.io/examples/application/mysql/mysql-services.yaml --namespace=mysql
+kubectl apply -f https://k8s.io/examples/application/mysql/mysql-statefulset.yaml --namespace=mysql
