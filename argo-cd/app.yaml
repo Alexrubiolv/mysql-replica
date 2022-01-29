@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Alexrubiolv/mysql-replica
     targetRevision: HEAD
-    path: mysql-replica
+    path: mySQL/
     directory:
       recurse: true
   destination:
